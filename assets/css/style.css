@@ -36,17 +36,18 @@ reset
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   border: 0;
   outline: 0;
   box-sizing: border-box;
-font-family: "Cairo", sans-serif;
+  font-family: "Cairo", sans-serif;
   font-optical-sizing: auto;
   font-weight: ;
   font-style: normal;
-  font-variation-settings:"slnt" 0;
+  font-variation-settings: "slnt" 0;
 }
 }
 
@@ -1279,6 +1280,7 @@ features
 
 #features .features-item {
   margin-bottom: 50px;
+  direction: rtl;
 }
 
 .features-item .features-icon {
