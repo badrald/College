@@ -1,0 +1,5 @@
+/* 
+  X-Frame-Options and CSP frame-ancestors to prevent clickjacking
+*/
+X-Frame-Options: DENY
+Content-Security-Policy: frame-ancestors 'none'
