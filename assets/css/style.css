@@ -189,14 +189,14 @@ a.main-stroked-button:hover {
 }
 
 a.main-filled-button {
-  font-size: 20px;
+  font-size: 15px;
   border-radius: 25px;
   padding: 13px 25px;
   background-color: #fff;
   text-transform: uppercase;
   color: #4695d0;
   font-weight: 600;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.3px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -207,6 +207,18 @@ a.main-filled-button:hover {
   color: #fff;
   background-color: #4695d0;
 }
+
+@media screen and (max-width: 767px) {
+  .main-banner .text-content a.main-filled-button {
+    display: inline-block;
+    /* Helps buttons align side-by-side with col-* classes */
+    vertical-align: top;
+    /* Align buttons nicely if they wrap */
+  }
+}
+
+/* Ensure banner buttons respect grid layout on mobile */
+
 
 a.main-button-icon {
   font-size: 13px;
